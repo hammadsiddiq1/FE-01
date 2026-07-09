@@ -9,11 +9,11 @@ Project instructions for AI assistants working in this repository.
 ## Tech Stack
 
 <!-- Update as the project is scaffolded -->
-- **Language:** TBD
-- **Framework:** TBD
-- **Package manager:** TBD
-- **Styling:** TBD
-- **Testing:** TBD
+- **Language:** TypeScript
+- **Framework:** Next.js/React
+- **Package manager:** npm
+- **Styling:** TailwindCSS
+- **Testing:** Vitest
 
 ## Commands
 
@@ -21,7 +21,7 @@ Project instructions for AI assistants working in this repository.
 
 ```bash
 # Install dependencies
-# npm install | pnpm install | yarn install
+# npm install
 
 # Start dev server
 # npm run dev
