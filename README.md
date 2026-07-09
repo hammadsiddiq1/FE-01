@@ -1,3 +1,12 @@
 # FE-01
 
-This is a GitHub repository where I make use of AI coding tools.
+A frontend sandbox for experimenting with AI-assisted development.
+
+## Stack
+
+- **TypeScript** · **Next.js / React** · **Tailwind CSS**
+- **npm** · **Vitest**
+
+## AI context
+
+Assistant instructions for this repo live in [CLAUDE.md](./CLAUDE.md).
