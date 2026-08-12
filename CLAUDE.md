@@ -72,6 +72,11 @@ Add a directory map here once the codebase is scaffolded (e.g. `src/`, `componen
 - Do not force-push to `main`/`master`.
 - Do not skip git hooks unless explicitly requested.
 - Ask before making large architectural changes or adding new dependencies.
+<!-- NEW RULES AFTER VAGUE/PRECISE PROMPT ASSIGNMENT -->
+- All forms must use `react-hook-form` with `zod` schema validation.
+- Uncontrolled forms or `useState` inputs are prohibited.
+- Data fetching, client-side caching, and loading states must be managed using `tanstack-query`. Native `fetch` is strictly prohibited.
+- For accessibility purposes, every input must have an associated `<label>` and appropriate `aria-...` props.
 
 ## Gotchas
 
